@@ -1,0 +1,201 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --backgrounddark-green: rgba(2, 44, 34, 1);
+  --backgroundgreen: rgba(190, 242, 100, 1);
+  --body-200-font-family: "Figtree", Helvetica;
+  --body-200-font-size: 16px;
+  --body-200-font-style: normal;
+  --body-200-font-weight: 400;
+  --body-200-letter-spacing: -0.06400000095367432px;
+  --body-200-line-height: 24px;
+  --body-300-font-family: "Figtree", Helvetica;
+  --body-300-font-size: 14px;
+  --body-300-font-style: normal;
+  --body-300-font-weight: 400;
+  --body-300-letter-spacing: -0.05600000083446503px;
+  --body-300-line-height: 20px;
+  --body-body-2-14-px-medium-font-family: "Inter", Helvetica;
+  --body-body-2-14-px-medium-font-size: 14px;
+  --body-body-2-14-px-medium-font-style: normal;
+  --body-body-2-14-px-medium-font-weight: 500;
+  --body-body-2-14-px-medium-letter-spacing: 0px;
+  --body-body-2-14-px-medium-line-height: 25px;
+  --body-m-font-family: "Plus Jakarta Sans", Helvetica;
+  --body-m-font-size: 16px;
+  --body-m-font-style: normal;
+  --body-m-font-weight: 400;
+  --body-m-letter-spacing: 0px;
+  --body-m-line-height: 30px;
+  --button-font-family: "Plus Jakarta Sans", Helvetica;
+  --button-font-size: 14px;
+  --button-font-style: normal;
+  --button-font-weight: 600;
+  --button-letter-spacing: 0px;
+  --button-line-height: 30px;
+  --contentalpha-80: rgba(255, 255, 255, 0.8);
+  --contentreversed: rgba(255, 255, 255, 1);
+  --display-d1-font-family: "Plus Jakarta Sans", Helvetica;
+  --display-d1-font-size: 80px;
+  --display-d1-font-style: normal;
+  --display-d1-font-weight: 700;
+  --display-d1-letter-spacing: 0px;
+  --display-d1-line-height: 90px;
+  --h1-up-font-family: "Plus Jakarta Sans", Helvetica;
+  --h1-up-font-size: 14px;
+  --h1-up-font-style: normal;
+  --h1-up-font-weight: 600;
+  --h1-up-letter-spacing: 1.399999976158142px;
+  --h1-up-line-height: 14px;
+  --heading-h1-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h1-font-size: 50px;
+  --heading-h1-font-style: normal;
+  --heading-h1-font-weight: 700;
+  --heading-h1-letter-spacing: 0px;
+  --heading-h1-line-height: 60px;
+  --heading-h2-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h2-font-size: 30px;
+  --heading-h2-font-style: normal;
+  --heading-h2-font-weight: 600;
+  --heading-h2-letter-spacing: 0px;
+  --heading-h2-line-height: 36px;
+  --heading-h3-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h3-font-size: 22px;
+  --heading-h3-font-style: normal;
+  --heading-h3-font-weight: 700;
+  --heading-h3-letter-spacing: 0px;
+  --heading-h3-line-height: 30px;
+  --heading-h4-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h4-font-size: 18px;
+  --heading-h4-font-style: normal;
+  --heading-h4-font-weight: 600;
+  --heading-h4-letter-spacing: 0px;
+  --heading-h4-line-height: 28px;
+  --headline-h-3-48-px-bold-font-family: "Inter", Helvetica;
+  --headline-h-3-48-px-bold-font-size: 48px;
+  --headline-h-3-48-px-bold-font-style: normal;
+  --headline-h-3-48-px-bold-font-weight: 700;
+  --headline-h-3-48-px-bold-letter-spacing: 0px;
+  --headline-h-3-48-px-bold-line-height: 72px;
+  --home-p: rgba(131, 205, 32, 1);
+  --label-200-font-family: "Figtree", Helvetica;
+  --label-200-font-size: 16px;
+  --label-200-font-style: normal;
+  --label-200-font-weight: 500;
+  --label-200-letter-spacing: -0.06400000095367432px;
+  --label-200-line-height: 24px;
+  --navigation-font-family: "Plus Jakarta Sans", Helvetica;
+  --navigation-font-size: 15px;
+  --navigation-font-style: normal;
+  --navigation-font-weight: 700;
+  --navigation-letter-spacing: 1.399999976158142px;
+  --navigation-line-height: 26px;
+  --shadow-l: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+  --title-title-4-18-px-bold-font-family: "Inter", Helvetica;
+  --title-title-4-18-px-bold-font-size: 18px;
+  --title-title-4-18-px-bold-font-style: normal;
+  --title-title-4-18-px-bold-font-weight: 700;
+  --title-title-4-18-px-bold-letter-spacing: 0px;
+  --title-title-4-18-px-bold-line-height: 28px;
+  --title-title-4-18-px-regular-font-family: "Inter", Helvetica;
+  --title-title-4-18-px-regular-font-size: 18px;
+  --title-title-4-18-px-regular-font-style: normal;
+  --title-title-4-18-px-regular-font-weight: 400;
+  --title-title-4-18-px-regular-letter-spacing: 0px;
+  --title-title-4-18-px-regular-line-height: 28px;
+  --white: rgba(255, 255, 255, 1);
+  --x-100: rgba(241, 245, 235, 1);
+  --x-200: rgba(227, 219, 216, 1);
+  --x-800: rgba(114, 114, 114, 1);
+  --x-900: rgba(3, 72, 51, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
